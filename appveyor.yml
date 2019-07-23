@@ -10,6 +10,7 @@ clone_folder: c:\gopath\src\github.com/detailyang/sockpairconn-go
 environment:
   GOPATH: c:\gopath
   GO15VENDOREXPERIMENT: 1
+  GO111MODULE: on 
 
 # scripts that run after cloning repository
 install:
@@ -18,7 +19,7 @@ install:
   - go env
 
 build_script:
-  - GO111MODULE=on go test -race -v .
+  - go test -race -v .
 
 # to disable automatic tests
 test: off
