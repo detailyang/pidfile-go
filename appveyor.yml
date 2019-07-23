@@ -18,7 +18,7 @@ install:
   - go env
 
 build_script:
-  - go test -race -v .
+  - GO111MODULE=on go test -race -v .
 
 # to disable automatic tests
 test: off

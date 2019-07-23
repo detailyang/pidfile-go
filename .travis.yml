@@ -4,8 +4,7 @@ os:
 sudo: false
 language: go
 go:
-  - 1.9.x
-  - 1.x
+  - 1.12.x
 git:
   depth: 1
 
@@ -18,4 +17,4 @@ notifications:
   email: false
 
 script:
-  - go test -race -v .
+  - GO111MODULE=on go test -race -v .
