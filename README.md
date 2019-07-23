@@ -8,4 +8,4 @@
    <a href="https://ci.appveyor.com/project/detailyang/pidfile-go"><img src="https://ci.appveyor.com/api/projects/status/nminv3sm2h2lb1ps?svg=true" /></a>
    <br />
    <b>backport pidfile pkg from docker</b>
-</p>⏎
+</p>
